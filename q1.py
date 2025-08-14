@@ -1,3 +1,7 @@
+"""
+Please implement count_words() according to the documentation. There is an example input/output below.
+"""
+
 # Example:
 # Input: "Rasika has a cat. Ellen has a cat."
 # Output: {Rasika: 1, has: 2, a: 2, cat.: 2, Ellen: 1}
