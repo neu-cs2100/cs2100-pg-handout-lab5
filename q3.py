@@ -1,7 +1,11 @@
-# This question will take the dictionary built in count_char_n_grams() as an argument
-# to calculate the possibilities for the next letter given the previous n-1 letters 
-# (from the prompt string).
-# You can assume that the parameter prompt has length n-1, and counts has the format of the map output by count_char_n_grams().
+"""
+This question will take the dictionary built in count_char_n_grams() as an argument
+to calculate the possibilities for the next letter given the previous n-1 letters 
+(from the prompt string).
+You can assume that the parameter prompt has length n-1, and counts has the format of the map output by count_char_n_grams().
+
+There are comments describing its functionality, but you will need to write the documentation.
+"""
 
 def next_letter_frequency(prompt: str, counts: dict[str, int]) -> dict[str, int]:
     # Return a dictionary where the keys are the options for the nth character (given
