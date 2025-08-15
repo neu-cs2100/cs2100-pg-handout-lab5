@@ -14,7 +14,7 @@ path to this current directory above.
 
 
 def generate_next_char(prompt: str, counts: dict[str, int]) -> str:
-    # This function should call next_netter_frequency() to get the options for 
+    # This function should call next_letter_frequency() to get the options for 
     # the next character given the prompt (which you can assume has length n-1),
     # and then randomly choose one of the characters and return it.
     # You can also assume that counts has the format output by count_char_n_grams().
