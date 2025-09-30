@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/path/to/this/directory") # Fill in this path
+sys.path.append(".")
 from q3 import next_letter_frequency
 from q2 import count_char_n_grams
 
@@ -7,9 +7,6 @@ from q2 import count_char_n_grams
 Please implement generate_next_char() according to the comments describing its functionality.
 You will need to write the documentation.
 There are extra challenges below it, if you are interested in creating a small language model.
-
-To run this file (and import the functions from q2 and q3), fill in the 
-path to this current directory above.
 """
 
 
